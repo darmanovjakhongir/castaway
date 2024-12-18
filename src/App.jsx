@@ -4,18 +4,16 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-const App = () => {
+function App() {
   return (
-    <div className="app">
+    <>
       <Header />
-      <main>
-        <Episodes />
-        <About />
-        <Contact />
-      </main>
+      <Episodes />
+      <About />
+      <Contact />
       <Footer />
-    </div>
-  );
-};
+    </>
+  )
+}
 
 export default App;
