@@ -1,0 +1,149 @@
+.contact {
+  padding: 20px 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-subscribe-container {
+  background-color: var(--black);
+  border-radius: 10px;
+  padding: 16px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-subscribe-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 12px 40px var(--shadow-color);
+}
+
+.contact-subscribe-text {
+  flex: 1;
+  text-align: left;
+  max-width: 50%;
+}
+
+.contact-heading-secondary {
+  font-family: var(--font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--highlight-color);
+  margin-bottom: 10px;
+}
+
+.contact-heading-primary {
+  font-family: var(--font-family);
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 2.5px;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-input {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27px;
+  background-color: var(--dark-bg);
+  color: var(--white);
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-input-name {
+}
+
+.contact-input-email {
+}
+
+.contact-submit-button {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  background-color: var(--highlight-color);
+  color: var(--white);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+
+.contact-submit-button:hover {
+  background-color: var(--white);
+  color: var(--button-hover-color);
+}
+
+.contact-testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+  gap: 10px;
+}
+
+.contact-testimonial-card {
+  background-color: var(--black);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  padding: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-testimonial-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 12px 40px var(--shadow-color);
+}
+
+.contact-stars {
+  display: flex;
+  gap: 5px;
+}
+
+.contact-star-icon {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-star-icon:hover {
+  transform: scale(1.5);
+}
+
+.contact-testimonial-text {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--white);
+  margin-left: 10px;
+}
+
+.contact-testimonial-author {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--white);
+  margin-left: 10px;
+  margin-top: 8px;
+}

@@ -1,0 +1,11 @@
+:root {
+  --white: #ffffff;
+  --dark-bg: #191919;
+  --black: #000000;
+  --highlight-color: #118da8;
+  --button-bg: #118da8;
+  --button-hover-bg: #ffffff;
+  --button-hover-color: #1c7ed6;
+  --shadow-color: #87cffa80;
+  --font-family: "DM Sans", sans-serif;
+}
